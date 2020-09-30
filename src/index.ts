@@ -1,4 +1,4 @@
-import * as process from 'process';
+/// <reference types="@types/googlemaps" />
 import { User } from './User';
 import { Company } from './Company';
 
@@ -7,5 +7,3 @@ console.log(user);
 
 const company = new Company();
 console.log(company);
-
-console.log(process.env.API_KEY);
